@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'sf';
+    src: url('/assets/FontsFree-Net-SF-Pro-Rounded-Regular.ttf');
+}
+body {
+    margin: 0;
+    background-color:#1f1e1e;
+}
+p {
+    color:white;
+    font-size: 20px;
+    font-family: 'sf';
+}
+a {
+    color:white;
+    font-size: 20px;
+    font-family: 'sf';
+    text-decoration: none;
+    float: left;
+    margin-left:50px;
+}
+a:hover {
+    color:grey;
+}
+h1 {
+    color:white;
+    font-size: 50px;
+    font-family: 'sf';
+  }
+.nav {
+    backdrop-filter: blur(5px);
+    width:100%;
+    height:75px;
+    padding:0.1px;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav .name {
+    padding:20px;
+}
+.nav .links {
+    margin-left: 850px;
+    margin-top:-15px;
+
+}
+.lnk {
+    background-color:#121111;
+    border-radius:15px;
+    border:none;
+    width:100px;
+    height:50px;
+    
+}
+.lnk p {
+    margin-top:10px;
+}
+.lnk:hover {
+    color:#1f1e1e;
+    background-color:whitesmoke;
+}
+.lnk:hover p {
+    color:#1f1e1e;
+}
+.product {
+    border-bottom: white 1px solid;
+    padding:15px;
+    height:300px;
+}
